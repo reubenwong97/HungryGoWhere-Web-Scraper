@@ -5,8 +5,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import pandas as pd
 
-# TIH API Key: 9AJeNwNIpBv0rUV4VP2XTUUumbAZcqfU 
-
 def before(base_str, str_to_find):
     """
     args:
